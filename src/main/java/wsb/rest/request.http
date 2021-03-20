@@ -1,0 +1,22 @@
+###
+GET http://localhost:8080/songs
+
+###
+GET http://localhost:8080/songs/5
+
+###
+POST http://localhost:8080/songs
+Content-Type: application/json
+
+{
+  "title": "Ace of spaces",
+  "author": "Motorhead"
+}
+###
+PUT http://localhost:8080/songs/1
+Content-Type: application/json
+
+{
+  "title": "Ace of spaces",
+  "author": "Motorhead"
+}
