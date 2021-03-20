@@ -43,4 +43,11 @@ public class SongRepository {
         songToUpdate.setAuthor(song.getAuthor());
         return songToUpdate;
     }
-}
+
+
+        void delete(Long id) {
+            Song song = find(id);
+            songs.remove(song);
+        }
+    }
+

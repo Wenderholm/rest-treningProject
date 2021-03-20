@@ -51,6 +51,10 @@ public class SongController {
         }
     }
 //    @DeleteMapping ("{id}")
-
+    @DeleteMapping("{id}")
+    String delete(@PathVariable Long id) {
+    songRepository.delete(id);
+    return "OK";
+    }
 
 }

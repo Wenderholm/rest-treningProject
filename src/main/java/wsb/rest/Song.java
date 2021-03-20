@@ -28,8 +28,5 @@ public class Song {
         this.title = title;
         this.author = author;
     }
-//    EntityModel<Song>toModel(){
-//        return EntityModel.of(this,
-//                linkTo(methodOn(SongHATEOASController.class));
-//    }
+
 }

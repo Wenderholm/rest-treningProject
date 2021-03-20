@@ -20,3 +20,6 @@ Content-Type: application/json
   "title": "Ace of spaces",
   "author": "Motorhead"
 }
+
+###
+DELETE http://localhost:8080/songs/2
